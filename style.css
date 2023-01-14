@@ -9,11 +9,11 @@ body{
     color: white;
 }
 #header{
-    width: 100%;
+    /* width: 100%; */
     height: 100vh;
     background-image: url('img/background.png');
     background-size: cover;
-    background-position: center;
+    background-position: center  center;
 }
 .container{
     padding-top: 10px;
@@ -330,6 +330,10 @@ background:rgb(230, 3, 72);
 cursor: pointer;
 
 }
+.btn.btn3:focus{
+    background-color:rgb(192, 0, 16) ;
+
+}
 .contact-right form{
     width: 100%;
 
@@ -345,6 +349,11 @@ form input, form textarea{
     font-size: 18px;
     border-radius: 6px;
 }
+#msg{
+    color: green;
+    display: block;
+    margin-top: -30px;
+}
 .copyright{
     width: 100%;
     text-align: center;
@@ -357,11 +366,11 @@ form input, form textarea{
 .copyright p i{
     color: rgb(230, 3, 72) ;
 
+}
 
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 
-}
 /* -----------------cssforscreen---------------- */
 @media only screen and (max-width: 1000px){
     #header{
@@ -549,18 +558,7 @@ margin-top: 14px;
     margin-left: 10px;
     flex-basis: 60%;
 }
-/* #services {
-    display: flex;
-    width: 425px;
-    padding: 10px 0;
-    flex-wrap: nowrap;
-}
-.sub-title {
-    padding: 0 100px;
-    align-items: center;
-    font-size: 40px;
-    color: white;
-} */
+
 .container3 {
     width: 400px;
     padding: 10px 10%;
@@ -647,63 +645,3 @@ margin-top: 14px;
       zoom: 1;
     }
   }
-    /* .sub-title {
-    font-size: 25px;
-    font-weight: 800;
-    color: white;
-    margin-left: 5px;
-}
-    .about-col-2 p{
-    font-size: 12px;
-    padding-top: 5px ;
-    padding-left: 5px;
-    text-align: left;
-}
-    .about-col-1 img {
-    width: 105px;
-    border-radius: 15px;
-}
-    .row {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-}
-.about-col-1 {
-    flex-basis: 0%;
-}
-.about-col-2 {
-    flex-basis: 0%;
-}
-#services{
-    padding: 0px 80px;
-
-}
-.services-list {
-  
-    margin-top: 20px;
-}
-.container3{
-    padding: 10px 5%;
-}
-#portfolio{
-    padding: 0 80px;
-}
-.container4 {
-    padding: 20px 5%;
-    width: 100%;
-}
-.work-list {
-    
-    margin-top: 20px;
-}
-.btn {
-    display: block;
-    margin: 23px 4px;
-    width: fit-content;
-    padding: 12px 27px;
-    border-radius: 6px;
-   
-}
-
-    }
-     */
