@@ -38,8 +38,8 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>Hey, This is Nilesh Kumar. <br> I am a BCA student studying in <br> Patliputra University. 
-                       <br> My home town is (Patna)
+                    <p>Hey, This is Nilesh Kumar. <br> I am a BCA student studying in <br> Patliputra University.
+                        <br> My home town is (Patna)
                     </p>
 
                     <div class="tab-titles">
@@ -83,20 +83,25 @@
                     <div>
                         <i class="fa-sharp fa-solid fa-code"></i>
                         <h2>Web Designing</h2>
-                        <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; user interface design (UI design)</p>
+                        <p>Web design encompasses many different skills and disciplines in the production and
+                            maintenance of websites. The different areas of web design include web graphic design; user
+                            interface design (UI design)</p>
                         <a href="https://en.wikipedia.org/wiki/Web_design" target="_blank">Learn more</a>
                     </div>
                     <div>
                         <i class="fa-solid fa-camera-retro"></i>
                         <h2>Photoshop and CorelDraw</h2>
-                        <p>"Photoshop" redirects here. For the colloquial verb meaning photograph manipulation, see Photoshop (verb). For other uses, see Photoshop (disambiguation).
+                        <p>"Photoshop" redirects here. For the colloquial verb meaning photograph manipulation, see
+                            Photoshop (verb). For other uses, see Photoshop (disambiguation).
                             "Adobe Ps" redirects here. For the vector graphics language, see PostScript</p>
                         <a href="https://en.wikipedia.org/wiki/Adobe_Photoshop" target="_blank">Learn more</a>
                     </div>
                     <div>
                         <i class="fa-sharp fa-solid fa-file-invoice"></i>
                         <h2>Tally with GST</h2>
-                        <p>Tally Solutions was co-founded in 1986 by Shyam Sunder Goenka and his son Bharat Goenka after the family's cotton business was destroyed by fire. It began as Peutronics Financial Accountant, an accounting software application.</p>
+                        <p>Tally Solutions was co-founded in 1986 by Shyam Sunder Goenka and his son Bharat Goenka after
+                            the family's cotton business was destroyed by fire. It began as Peutronics Financial
+                            Accountant, an accounting software application.</p>
                         <a href="https://en.wikipedia.org/wiki/Tally_Solutions" target="_blank">Learn more</a>
                     </div>
                 </div>
@@ -148,13 +153,20 @@
                 <div class="row2">
                     <div class="contact-left">
                         <h1 class="sub-title">Contact Me</h1>
-                        <p><i class="fa-solid fa-envelope"></i> <h4 class="con"> nilesh30032004@gmail.com </h4></p>
-                        <p><i class="fa-solid fa-phone"></i> <h4 class="con"> 9955688176 </h4></p>
+                        <p><i class="fa-solid fa-envelope"></i>
+                        <h4 class="con"> nilesh30032004@gmail.com </h4>
+                        </p>
+                        <p><i class="fa-solid fa-phone"></i>
+                        <h4 class="con"> 9955688176 </h4>
+                        </p>
                         <div class="social-icones">
                             <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                            <a href="https://twitter.com/i/flow/login" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                            <a href="https://www.instagram.com/" target="_blank" ><i class="fa-brands fa-instagram"></i></a>
-                            <a href="https://www.linkedin.com/login" target="_blank" ><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://twitter.com/i/flow/login" target="_blank"><i
+                                    class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/login" target="_blank"><i
+                                    class="fa-brands fa-linkedin"></i></a>
                         </div>
                         <a href="img/my cv.pdf" download="Nilesh CV" class="btn btn2">Download CV</a>
                     </div>
@@ -171,10 +183,10 @@
                 </div>
             </div>
             <div class="copyright">
-                <p>Copyright  &copy Nilesh. Made With <i class="fa-solid fa-heart"></i> By Nilesh Kumar</p>
+                <p>Copyright &copy Nilesh. Made With <i class="fa-solid fa-heart"></i> By Nilesh Kumar</p>
             </div>
         </div>
-        
+
 
         <script>
 
@@ -200,20 +212,20 @@
             const scriptURL = 'https://script.google.com/macros/s/AKfycbzE8eHG6U9eNE5MZIYHhJyVW7CDON0FjHVItm__ntDP5gxloDKW6-FnrM5lmZXiUb5W/exec'
             const form = document.forms['submit-to-google-sheet']
             const msg = document.getElementById("msg")
-          
+
             form.addEventListener('submit', e => {
-              e.preventDefault()
-              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => {
-                    msg.innerHTML = "Message Sent Successfully"
-                    setTimeout(function(){
-                        msg.innerHTML = ""
-                    },3000)
-                    form.reset()
-                })
-                .catch(error => console.error('Error!', error.message))
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        msg.innerHTML = "Thank You For Contact Me"
+                        setTimeout(function () {
+                            msg.innerHTML = ""
+                        }, 3000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
             })
-          </script>
+        </script>
 </body>
 
 </html>

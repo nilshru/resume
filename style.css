@@ -29,7 +29,7 @@ nav{
 .logo{
     width: 134px;
 }
-/* 
+/*
  */
 nav ul li{
     display: inline-block;
@@ -42,7 +42,7 @@ nav ul li a{
     text-decoration: none;
     font-size: 18px;
     position: relative;
-   
+
 }
 
 nav ul li a::after{
@@ -63,7 +63,7 @@ nav ul li a:hover::after{
 .header-text{
     margin-top: 20%;
     font-size: 25px;
-    
+
 }
 .header-text h1{
     font-size: 55px;
@@ -267,7 +267,7 @@ nav ul li a:hover::after{
 }
 .btn:hover{
     background: rgb(230, 3, 72) ;
-    
+
 }
 /* -------------contact------ */
 .row2{
@@ -284,7 +284,7 @@ nav ul li a:hover::after{
 .contact-left{
     flex-basis: 35%
 
-    
+
 }
 .contact-right{
     flex-basis: 60%
@@ -377,8 +377,8 @@ form input, form textarea{
         background-image: url(img/background.png);
         background-size: cover;
     background-position: center;
-  
-    
+
+
 }
     .header-text p{
         font-size: 25px;
@@ -426,7 +426,7 @@ form input, form textarea{
     text-decoration: none;
     color: white;
     transition: 0.5s;
- 
+
 }
 .container {
     padding-top: 0px;
@@ -436,6 +436,9 @@ form input, form textarea{
 .container5{
     padding: 10px 5%;
 }
+#msg{
+    margin-top: 10px;
+}
 
 }
 /* -----------------cssforscreen---------------- */
@@ -444,8 +447,8 @@ form input, form textarea{
         background-image: url(img/background2.png);
         background-size: cover;
     background-position: center;
-  
-    
+
+
 }
 .logo{
     width: 120px;
@@ -461,6 +464,9 @@ form input, form textarea{
 .container5{
     padding: 10px 5%;
 }
+#msg{
+    margin-top: 10px;
+}
 }
 /* -----------------cssfortab--------------- */
 @media only screen and (max-width: 630px){
@@ -468,8 +474,8 @@ form input, form textarea{
         background-image: url(img/background3.png);
         background-size: cover;
     background-position: center;
-  
-    
+
+
 }
 
 .logo{
@@ -492,7 +498,7 @@ nav ul li a{
     text-decoration: none;
     font-size: 15px;
     position: relative;
-   
+
 }
 .container {
     padding-top: 10px;
@@ -502,7 +508,12 @@ nav ul li a{
 .container5{
     padding: 10px 5%;
 }
+#msg{
+    margin-top: 10px;
 }
+}
+
+/* ---------------------------for mobiles------------------------------------- */
 @media only screen and (max-width: 430px){
 nav ul li{
     display: inline-block;
@@ -569,7 +580,7 @@ margin-top: 14px;
     padding-left: 68px;
 }
 .sub-title {
-    
+
     font-size: 35px;
     color: white;
 }
@@ -588,7 +599,7 @@ margin-top: 14px;
     font-size: 14px;
 }
 .container4 {
-    
+
     width: 400px;
     padding: 10px 10%;
 }
@@ -621,6 +632,9 @@ margin-top: 14px;
     margin-left: 50px;
     margin-top: 30px;
 }
+#msg{
+    margin-top: 10px;
+}
 .copyright{
     width: 530px;
 }
@@ -636,7 +650,7 @@ margin-top: 14px;
 
   @media only screen and (min-width: 800px) {
     html {
-      zoom: .9;        
+      zoom: .9;
     }
   }
 
