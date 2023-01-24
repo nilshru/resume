@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Nilesh Resume</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/6e5d6af439.js" crossorigin="anonymous"></script>
@@ -14,7 +14,7 @@
     <div id="header">
         <div class="container">
             <nav>
-                <img src="img/logo.png" class="logo">
+                <img src="img/3.png" class="logo">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#about">About Us</a></li>
@@ -187,45 +187,8 @@
             </div>
         </div>
 
-
-        <script>
-
-            var tablinks = document.getElementsByClassName("tab-links")
-            var tabcontents = document.getElementsByClassName("tab-contents")
-
-            function opentab(tabname) {
-                for (tablink of tablinks) {
-                    tablink.classList.remove("active-link");
-                }
-
-                for (tabcontent of tabcontents) {
-                    tabcontent.classList.remove("active-tab");
-                }
-                event.currentTarget.classList.add("active-link");
-                document.getElementById(tabname).classList.add("active-tab");
-            }
-
-
-
-        </script>
-        <script>
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbzE8eHG6U9eNE5MZIYHhJyVW7CDON0FjHVItm__ntDP5gxloDKW6-FnrM5lmZXiUb5W/exec'
-            const form = document.forms['submit-to-google-sheet']
-            const msg = document.getElementById("msg")
-
-            form.addEventListener('submit', e => {
-                e.preventDefault()
-                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-                    .then(response => {
-                        msg.innerHTML = "Thank You For Contact Me"
-                        setTimeout(function () {
-                            msg.innerHTML = ""
-                        }, 3000)
-                        form.reset()
-                    })
-                    .catch(error => console.error('Error!', error.message))
-            })
-        </script>
+        <script src="index.js"></script>
+        
 </body>
 
 </html>
