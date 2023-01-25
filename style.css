@@ -70,7 +70,7 @@ nav ul li a:hover::after{
     margin-top: 20px;
 }
 .header-text h1 span{
-    color: rgb(230, 3, 71);
+    color: rgb(230, 3, 72);
 }
 /* -------------------about------------------ */
 .container2{
@@ -129,7 +129,7 @@ nav ul li a:hover::after{
 
 }
 .tab-contents ul li span{
-    color:rgb(201, 0, 60) ;
+    color:rgb(230, 3, 72) ;
     font-size: 14px;
 }
 .tab-contents{
@@ -420,7 +420,7 @@ form input, form textarea{
     display: block;
     margin: 15px auto;
     width: fit-content;
-    border: 1px solid #e60348;
+    border: 1px solid rgb(230, 3, 72);
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -522,7 +522,7 @@ nav ul li{
     transition: 0.5s;
 }
 #header{
-    background-image: url(img/phone\ background.png);
+    background-image: url(img/phone.jpg);
     background-size: cover;
 background-position: center;
 
@@ -659,3 +659,4 @@ margin-top: 14px;
       zoom: 1;
     }
   }
+
