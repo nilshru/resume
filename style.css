@@ -27,7 +27,7 @@ nav{
     flex-wrap: wrap;
 }
 .logo{
-    width: 125px;
+    width: 85px;
 }
 /*
  */
@@ -522,7 +522,7 @@ nav ul li{
     transition: 0.5s;
 }
 #header{
-    background-image: url(img/phone.jpg);
+    background-image: url(img/phoneback.jpg);
     background-size: cover;
 background-position: center;
 
