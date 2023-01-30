@@ -31,6 +31,9 @@ nav{
 }
 /*
  */
+nav ul{
+    margin-top: 15px;
+}
 nav ul li{
     display: inline-block;
     list-style: none;
@@ -429,9 +432,8 @@ form input, form textarea{
 
 }
 .container {
-    padding-top: 0px;
-    padding-left: 60px;
-    padding-right: 50px;
+    padding-top: 10px;
+   
 }
 .container5{
     padding: 10px 5%;
@@ -451,7 +453,7 @@ form input, form textarea{
 
 }
 .logo{
-    width: 120px;
+    width: 100px;
 }
     .header-text p{
         font-size: 22px;
@@ -479,7 +481,7 @@ form input, form textarea{
 }
 
 .logo{
-    width: 100px;
+    width: 95px;
 }
 #header{
     width: 100%;
