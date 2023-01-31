@@ -32,11 +32,15 @@ form.addEventListener('submit', e => {
 })
 var sidemenu = document.getElementById("sidemenu");
 
-function openmenu(){
-    sidemenu.style.right = "0";
+ function openmenu(){
+     sidemenu.style.top = "-2.3vh";
 
-}
-function closemenu(){
-    sidemenu.style.right = "-200px";
+ }
+ function closemenu(){
+     sidemenu.style.top = "-100vh";
     
 }
+//  function closemen(){
+//     sidemenu.style.top = "-200px";
+    
+//  }

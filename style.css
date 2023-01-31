@@ -479,8 +479,24 @@ nav .fa-solid{
         background-image: url(img/background3.png);
         background-size: cover;
     background-position: center;
+    position: relative;
 
 
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background : rgb(255, 255, 255);
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+
+}
+nav ul li a:hover::after{
+
+    width: 100%;
 }
 
 .logo{
@@ -500,14 +516,14 @@ nav .fa-solid{
 }
 nav ul{
     background-color: rgb(230, 3, 72);
-    position: fixed;
-    top: -16px;
-    right: -200px;
+    position:absolute;
+    top: -100vh;
+    right: 0px;
     width: 200px;
-    height: 100vh;
+    height: 90vh;
     padding-top: 50px;
    
-    transition: right 0.5s;
+    transition: top 0.5s;
 }
 nav ul li{
     display: block;
@@ -526,6 +542,7 @@ nav ul li a{
     text-decoration: none;
     font-size: 15px;
     position: relative;
+    
 
 }
 .container {
