@@ -370,6 +370,9 @@ form input, form textarea{
     color: rgb(230, 3, 72) ;
 
 }
+nav .fa-solid{
+    display: none;
+}
 
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
@@ -495,6 +498,29 @@ form input, form textarea{
         font-size: 28px;
     margin-top: 14px;
 }
+nav ul{
+    background-color: rgb(230, 3, 72);
+    position: fixed;
+    top: -16px;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+   
+    transition: right 0.5s;
+}
+nav ul li{
+    display: block;
+    margin: 25px;
+}
+nav ul .fa-solid{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+
+
+}
 nav ul li a{
     color: white;
     text-decoration: none;
@@ -507,21 +533,37 @@ nav ul li a{
     padding-left: 24px;
     padding-right: 10px;
 }
+.container4{
+    overflow: hidden;
+}
 .container5{
     padding: 10px 5%;
 }
 #msg{
     margin-top: 10px;
 }
+nav .fa-solid{
+    display: block;
+    font-size: 25px;
+    padding-right: 15px;
+}
+
 }
 
 /* ---------------------------for mobiles------------------------------------- */
 @media only screen and (max-width: 430px){
-nav ul li{
+/* nav ul li{
     display: inline-block;
     list-style: none;
     margin: 10px 3px;
     transition: 0.5s;
+} */
+
+
+nav ul li{
+    display: block;
+    margin: 25px;
+    
 }
 #header{
     background-image: url(img/phoneback.jpg);
