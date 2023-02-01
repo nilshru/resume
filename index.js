@@ -40,7 +40,7 @@ var sidemenu = document.getElementById("sidemenu");
      sidemenu.style.top = "-100vh";
     
 }
-//  function closemen(){
-//     sidemenu.style.top = "-200px";
+  function closemen(){
+     sidemenu.style.top = "-100vh";
     
-//  }
+  }
