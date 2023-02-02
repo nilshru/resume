@@ -33,14 +33,14 @@ form.addEventListener('submit', e => {
 var sidemenu = document.getElementById("sidemenu");
 
  function openmenu(){
-     sidemenu.style.top = "-2.3vh";
+     sidemenu.style.top = "-4.7vh";
 
  }
  function closemenu(){
-     sidemenu.style.top = "-100vh";
+     sidemenu.style.top = "-105vh";
     
 }
   function closemen(){
-     sidemenu.style.top = "-100vh";
+     sidemenu.style.top = "-105vh";
     
   }
