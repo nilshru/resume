@@ -6,24 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Nilesh Resume</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/6e5d6af439.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div id="header">
+    <div id="header" onclick="scrollToTop()">
         <div class="container">
             <nav>
                 <img src="img/logo.png" class="logo">
                 <ul id="sidemenu">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#about" onclick="closemenu()">About Us </a></li>
+                    <li><a href="#services" onclick="closemenu()">Services</a></li>
+                    <li><a href="#portfolio" onclick="closemenu()">Portfolio</a></li>
+                    <li><a href="#contact" onclick="closemenu()">Contact Us</a></li>
                     <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
-                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                <i class="fa-solid fa-bars" onclick="openmenu()"> </i>
             </nav>
             <div class="header-text" onclick="closemen()">
                 <p>Hello There!</p>
@@ -51,25 +52,41 @@
                     </div>
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><span>UI</span><br> <h4>Designing Web Interfaces </h4></li>
-                            <li><span>Web Development</span><br><h4> Web app Development</h4></li>
+                            <li><span>UI</span><br>
+                                <h4>Designing Web Interfaces </h4>
+                            </li>
+                            <li><span>Web Development</span><br>
+                                <h4> Web app Development</h4>
+                            </li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="experience">
                         <ul>
-                            <li><span>2022 - Current</span><br> <h4>BCA Student (Part II)</h4></li>
-                            <li><span>2021</span><br> <h4>1 year Experience in (Photoshop, CorelDraw and Tally with GST)</h4></li>
+                            <li><span>2022 - Current</span><br>
+                                <h4>BCA Student (Part II)</h4>
+                            </li>
+                            <li><span>2021</span><br>
+                                <h4>1 year Experience in (Photoshop, CorelDraw and Tally with GST)</h4>
+                            </li>
 
 
                         </ul>
                     </div>
-                    <div class="tab-contents tce" id="education">
+                    <div class="tab-contents " id="education">
                         <ul>
-                            <li><span>2019</span><br><h4>Matric 10<sup>th</sup> (CBSE Board)</h4></li>
-                            <li><span>2021</span><br><h4>Inter 12<sup>th</sup> (BSEB Board)</h4></li>
-                            <li><span>2021</span><br> <h4>Complete Course In <br> ADCA (Adavance Diploma In Computer
-                                Application)</h4></li>
-                            <li><span>2022 - Current</span><br><h4>BCA Student</h4></li>
+                            <li><span>2019</span><br>
+                                <h4>Matric 10<sup>th</sup> (CBSE Board)</h4>
+                            </li>
+                            <li><span>2021</span><br>
+                                <h4>Inter 12<sup>th</sup> (BSEB Board)</h4>
+                            </li>
+                            <li><span>2021</span><br>
+                                <h4>Complete Course In <br> ADCA (Adavance Diploma In Computer
+                                    Application)</h4>
+                            </li>
+                            <li><span>2022 - Current</span><br>
+                                <h4>BCA Student</h4>
+                            </li>
                         </ul>
                     </div>
                 </div>

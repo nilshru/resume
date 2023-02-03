@@ -604,6 +604,7 @@ nav .fa-solid {
         font-size: 28px;
         margin-top: 14px;
     }
+
     nav {
         position: fixed;
     }
@@ -614,7 +615,7 @@ nav .fa-solid {
         top: -105vh;
         right: -8px;
         width: 200px;
-        height: 100vh;
+        height: 90vh;
         padding-top: 50px;
 
         transition: top 0.5s;
@@ -634,6 +635,17 @@ nav .fa-solid {
 
     }
 
+    nav a {
+        text-decoration: none;
+        display: block;
+    }
+
+    nav a .fa-bars {
+
+        color: white;
+        text-decoration: none;
+    }
+
     nav ul li a {
         color: white;
         text-decoration: none;
@@ -642,6 +654,7 @@ nav .fa-solid {
 
 
     }
+
     .row {
         display: flex;
         justify-content: space-between;
@@ -665,18 +678,21 @@ nav .fa-solid {
     #msg {
         margin-top: 10px;
     }
-    nav .fa-bars{
+
+    nav .fa-bars {
         margin-left: 390px;
 
     }
+
     nav .fa-solid {
-        
+
         display: block;
         font-size: 25px;
         padding-right: 15px;
     }
-    .tce{
-            margin-left: 20px;
+
+    .tce {
+        margin-left: 20px;
     }
 
 }
@@ -690,9 +706,9 @@ nav .fa-solid {
     transition: 0.5s;
 } */
 
-nav {
-    position: fixed;
-}
+    nav {
+        position: fixed;
+    }
 
 
     nav ul li {
@@ -705,18 +721,21 @@ nav {
         background-image: url(img/phoneback.jpg);
         background-size: cover;
         background-position: center;
-      
+
 
 
     }
 
     #header {
         width: 530px;
-        height: 100vh;
+        height: 90vh;
     }
+
     .logo {
         width: 70px;
+        background-color: black;
     }
+
     .header-text p {
         font-size: 14px;
         margin-top: 250px;
@@ -733,6 +752,7 @@ nav {
         grid-gap: 35px;
         margin-top: 25px;
     }
+
     .about-col-1 {
         margin-bottom: 10px;
         flex-basis: 35%;
@@ -742,12 +762,13 @@ nav {
         width: 345px;
         border-radius: 110px 0;
     }
+
     .row {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
     }
-    
+
 
     .about-col-2 p {
         margin-top: 10px;
@@ -763,20 +784,20 @@ nav {
         margin-left: 10px;
         flex-basis: 60%;
     }
-    .container2{
+
+    .container2 {
         margin: 0 75px;
-    padding: 10px 5%;
+        padding: 10px 5%;
     }
-    .tab-links::after{
-        display: none;
-    }
-    .tab-links:active{
+
+    .tab-links:active {
         color: rgb(230, 3, 72);
     }
+
     .tab-contents ul li span {
-    color: rgb(230, 3, 72);
-    font-size: 18px;
-}
+        color: rgb(230, 3, 72);
+        font-size: 18px;
+    }
 
     .container3 {
         width: 400px;
@@ -860,13 +881,15 @@ nav {
     .copyright {
         width: 530px;
     }
+
     .tab-links {
         margin-right: 50px;
         font-size: 18px;
         font-weight: 500;
         cursor: pointer;
-        position: initial;
+        position: relative;
     }
+
     nav .fa-bars {
         margin-left: 390px;
     }
