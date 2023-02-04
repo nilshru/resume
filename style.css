@@ -610,12 +610,13 @@ nav .fa-solid {
     }
 
     nav ul {
+        border-radius: 0px 0px 0px 180px;
         background-color: rgb(230, 3, 72);
         position: absolute;
         top: -105vh;
         right: -8px;
-        width: 200px;
-        height: 90vh;
+        width: 125px;
+        height: 70vh;
         padding-top: 50px;
 
         transition: top 0.5s;
@@ -771,8 +772,8 @@ nav .fa-solid {
 
 
     .about-col-2 p {
-        margin-top: 10px;
-        font-size: 1.2em;
+        margin-top: 20px;
+        font-size: 1.03rem;
     }
 
 
