@@ -15,8 +15,6 @@ html{
 
 }
 
-
-
 #header {
     /* width: 100%; */
     height: 100vh;
@@ -83,6 +81,7 @@ nav ul li a:hover::after {
 .header-text {
     margin-top: 20%;
     font-size: 25px;
+    
 
 }
 
@@ -91,8 +90,16 @@ nav ul li a:hover::after {
     margin-top: 20px;
 }
 
-.header-text h1 span {
+.header-text h1 .name{
     color: rgb(230, 3, 72);
+}
+.header-text h1 .auto-type{
+    width: 100vh;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0);
+    color: aqua;
+   
+    
 }
 
 /* -------------------about------------------ */

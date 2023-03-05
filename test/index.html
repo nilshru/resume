@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:'Times New Roman', Times, serif;
+        }
+        .contaner{
+            width: 100vh;
+            height: 100vh;
+            background-color: darkgrey;
+            color: darkslategray;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="contaner">
+        <h1>i am <span class="auto-type"></span> </h1>
+    </div>
+    <script src="index.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+    var typed = new Typed(".auto-type", {
+        strings:["Web Developer", "Photoshoper", "Graphic Designer"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true
+    })
+    </script> 
+</body>
+</html>

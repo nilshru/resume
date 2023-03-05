@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+
+}
+
+#header {
+    /* width: 100%; */
+    height: 100vh;
+    background-image: url('img/bird-background.jpg');
+    background-size: 100% 100%;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+nav{
+    padding: 25px 84px 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.fa-solid{
+    font-size: 1.5rem;
+    color: #3a3a3a;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+
+}
+nav ul li {
+    padding-left: 95px;
+}
+nav ul li a{
+    color: #3a3a3a;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.25rem;
+    text-decoration: none;
+
+}
+.logo{
+    width: 35px;
+}
+.lona{
+    display: flex;
+}
+.lona p{
+    color: #3a3a3a;
+    font-weight:normal;
+    font-family: 'Lobster', cursive;
+    font-size: 1.3rem;
+    padding-left: 5px;
+}
+.container{ border: solid #ff0303;
+    height: 100vh;
+    position: relative;
+
+}
+
+.container hr {
+    
+    display: flex;
+    margin-top: 28%;
+    margin-left: 50px;
+    width: 1px;
+    height: 100px;
+    background:#3a3a3a  ;
+    border-color:#3a3a3a;
+    border-radius: 25px;
+}
