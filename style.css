@@ -755,7 +755,7 @@ nav .fa-solid {
     .logo {
         display: flex;
         width: 70px;
-        background-color: black;
+       /* background-color: black;*/
     }
 
     .header-text p {
