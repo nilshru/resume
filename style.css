@@ -14,6 +14,32 @@ html{
 	scroll-behavior: smooth;
 
 }
+#loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .loader {
+    border: 12px solid #fffb002d;
+    border-top: 12px solid rgb(230, 3, 72);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 5s infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Hide the loader when the content is loaded */
+  body.loaded #loader-container {
+    display: none;
+  }
+  
 
 #header {
     /* width: 100%; */
@@ -629,14 +655,14 @@ nav .fa-solid {
     nav ul {
         border-radius: 0px 0px 0px 180px;
         background-color: rgb(230, 3, 72);
-        position: absolute;
+        /* position: absolute; */
         top: -105vh;
         right: -8px;
         width: 125px;
-        height: 55vh;
+        height: 45vh;
         padding-top: 50px;
 
-        transition: top 0.5s;
+        transition: top 0.7s;
     }
 
     nav ul li {
@@ -732,20 +758,42 @@ nav .fa-solid {
 
     nav ul li {
         display: block;
-        margin: 25px;
+        margin: 18px;
 
     }
-
+    
     #header {
         background-image: url(img/phoneback.jpg);
         background-size: cover;
+        background-attachment: fixed;
         background-position: center;
+        height: 100vh;
+        position: relative;
+      }
+      
+      #header:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0); /* Adjust the opacity as needed */
+      }
+      
+      
+
+    /* #header {
+        background-image: url(img/phoneback.jpg);
+        background-size: cover;
+        background-position: fixed;
+        
      width: auto;
-        height: 90vh;
+        height: 92vh;
 
 
 
-    }
+    } */
 
     /* #header {
         width: 530px;
@@ -760,12 +808,12 @@ nav .fa-solid {
 
     .header-text p {
         font-size: 14px;
-        margin-top: 250px;
+        margin-top: 45vh;
     }
 
     .header-text h1 {
-        font-size: 25px;
-        margin-top: 14px;
+        font-size: 1.5rem;
+        margin-top: 12px;
     }
 
     .services-list {
@@ -839,7 +887,7 @@ nav .fa-solid {
    
 .about-col-2 p {
     margin-top: 20px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
     .sub-title {
@@ -889,6 +937,10 @@ nav .fa-solid {
         margin-left: 45px;
         font-size: 20px;
     }
+    .con.con2{
+        text-align: start;
+        /* border: 2px solid white; */
+    }
 
     /* .btn {
         margin-left: 80px;
@@ -919,7 +971,7 @@ nav .fa-solid {
         font-size: 25px
     }
     .social-icones {
-        margin-left: 20px;
+        margin-left: 23px;
         margin-top: 30px;
     }
 
@@ -928,6 +980,7 @@ nav .fa-solid {
     }
 
     .copyright {
+        font-size: 0.9rem;
         width: 100%;
     }
 
@@ -941,7 +994,7 @@ nav .fa-solid {
     }
    .services-list div p{
         /* border: 5px solid white; */
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     nav .fa-bars {

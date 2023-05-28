@@ -51,3 +51,21 @@ function closemen() {
 
 }
 // --------------------------------------------------------------------------------------------------------
+var sidemenu = document.getElementById("sidemenu");
+window.addEventListener('load', function() {
+    // Add the 'loaded' class to the body element
+    document.body.classList.add('loaded');
+    function handleResize() {
+        if (window.matchMedia('(max-width:630px)').matches) {
+          sidemenu.style.position = 'absolute';
+        } else {
+          sidemenu.style.position = '';
+        }
+    }
+     // Call the handleResize function on page load
+  handleResize();
+
+  // Call the handleResize function on window resize
+  window.addEventListener('resize', handleResize);
+  });
+  
