@@ -22,8 +22,8 @@ html{
   }
   
   .loader {
-    border: 12px solid #fffb002d;
-    border-top: 12px solid rgb(230, 3, 72);
+    border: 10px solid white;
+    border-top: 10px solid rgb(230, 3, 72);
     border-radius: 50%;
     width: 120px;
     height: 120px;
